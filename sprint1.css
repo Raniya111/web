@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    background-color: darkred;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+}
+.right{
+    font-size: 20px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.right>a{
+    text-decoration: none;
+    color: white;
+}
+.main{
+    background-color:aqua;
+    margin-top: 20px;
+    display: flex;
+    padding: 30px;
+}
+.image{
+    height: 300px;
+    width: 450px;
+}
+.text{
+    margin-left: 20px;
+}
+p{
+    font-size: 20px;
+}
+.news{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.cards{
+    display: flex;
+    gap: 2vw;
+}
+.card >img{
+    height: 300px;
+    width: 23vw;
+}
+.card{
+    border: solid 1px grey;
+    padding-bottom: 30px;
+}
+.text>a{
+    text-decoration: none;
+    background-color: darkred;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
